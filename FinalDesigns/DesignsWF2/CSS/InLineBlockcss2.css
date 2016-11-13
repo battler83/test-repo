@@ -1,0 +1,113 @@
+/* "Reset" CSS - ensure that all elements begin at the same point across browsers*/
+/* Note, that we are explicit about tags rather than using the asterisk (*) selector */
+html,body,header,nav,main,article,section,nav,a,ul,li{
+    /* Certain CSS3 properties are highly experimental and need "vendor prefixes"... more on this later */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+    line-height: 1;
+}
+body,html
+{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+main
+{
+  width: 100%;
+  max-width: 774px;
+  margin:0 auto;
+}
+/* here is a trick margin:0 auto*/
+.banner
+{
+width:100%;
+}
+.main-nav
+{
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+}
+.menu
+{
+  list-style: none;
+  display: table-row;;
+}
+.menu-item
+{
+  display: table-cell;;
+  border: 5px solid black;
+  background-color: blue;
+
+}
+.menu-item a:hover
+{
+  background-color: red;
+}
+.main-nav a
+{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.r1c1
+{
+display: inline-block;
+vertical-align: top;
+width: 55%;
+text-align: justify;
+padding-right: 10%;
+}
+.r1c2
+{
+display: inline-block;
+width: 30%;
+text-align: justify;
+}
+.r2c1
+{
+display: inline-block;
+vertical-align: top;
+width: 43%;
+padding-right: 10%;
+text-align: justify;
+}
+.r2c2
+{
+display: inline-block;
+width: 43%;
+text-align: justify;
+}
+.BoldTitle
+{
+font-weight: bold;
+}
+.r3c1
+{
+display: inline-block;
+width: 25%;
+padding-right: 10%;
+text-align: justify;
+}
+.r3c2
+{
+display: inline-block;
+width: 25%;
+padding-right: 10%;
+text-align: justify;
+}
+.r3c3
+{
+display: inline-block;
+width: 25%;
+text-align: justify;
+}
