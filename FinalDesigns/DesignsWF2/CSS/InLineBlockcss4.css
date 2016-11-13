@@ -1,0 +1,171 @@
+/* "Reset" CSS - ensure that all elements begin at the same point across browsers*/
+/* Note, that we are explicit about tags rather than using the asterisk (*) selector */
+*{
+    /* Certain CSS3 properties are highly experimental and need "vendor prefixes"... more on this later */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+    line-height: 1;
+}
+body,html
+{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+body
+{
+
+}
+main
+{
+  width: 100%;
+  max-width: 774px;
+  margin:0 auto;
+}
+/* here is a trick margin:0 auto*/
+.banner
+{
+width:100%;
+}
+.main-nav
+{
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 5%;
+}
+.menu
+{
+  list-style: none;
+  vertical-align: middle;
+  display: table-row;
+}
+.menu-item
+{
+  display: table-cell;
+  border: 5px solid black;
+  background-color: blue;
+}
+.menu-item a:hover
+{
+  background-color: red;
+}
+.main-nav a
+{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.BasicTable
+{
+  display: table;
+}
+.WideRow
+{
+  display: table-row;
+}
+.EvenTwoRow
+{
+  display: table-row;
+}
+.EvenThreeRow
+{
+  display: table-row;
+}
+.WideRow .LeftColumn
+{
+  display: table-cell;
+  vertical-align: top;
+  width: 50%;
+  height: 100%;
+  background-image: url('../Images/EMImage.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+}
+.WideRow .RightColumn
+{
+  display: table-cell;
+  padding-left: 5%;
+  width: 30%;
+  text-align: justify;
+  vertical-align: top;
+}
+.EvenTwoRow .LeftColumn
+{
+  display: table-cell;
+  vertical-align: top;
+  width: 50%;
+  padding-right: 5%;
+  text-align: justify;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.EvenTwoRow .RightColumn
+{
+  display: table-cell;
+  vertical-align: top;
+  width: 45%;
+  text-align: justify;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.EvenThreeRow .LeftColumn
+{
+  display: table-cell;
+  vertical-align: top;
+  width: 31.5%;
+  padding-right: 5%;
+  text-align: justify;
+}
+.EvenThreeRow .MiddleColumn
+{
+  display: table-cell;
+  width: 31.5%;
+  padding-right: 5%;
+  text-align: justify;
+}
+.EvenThreeRow .RightColumn
+{
+  display: table-cell;
+  width: 27%;
+  text-align: justify;
+}
+.PadTextT
+{
+  padding-top: 5%;
+}
+.BoldTitle
+{
+  font-weight: bold;
+  padding-top: 5%;
+}
+.Circle-Button
+{
+  display: table-cell;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.RightAlignedTitle
+{
+  width: 100%;
+  height: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-weight: bold;
+}
+.SmallVerticalSpacer
+{
+  width: 100%;
+  padding-top: 5%;
+}

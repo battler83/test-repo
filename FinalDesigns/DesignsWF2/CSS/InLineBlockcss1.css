@@ -1,0 +1,75 @@
+body,html
+{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+main
+{
+  width: 100%;
+  max-width: 774px;
+  margin:0 auto;
+}
+/* here is a trick margin:0 auto*/
+.banner
+{
+width:100%;
+}
+nav ul
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li
+{
+  display: table-cell;
+  text-align: center;
+  padding: 1em 2em;
+}
+.r1c1
+{
+display: inline-block;
+vertical-align: top;
+width: 55%;
+padding-right: 10%;
+}
+.r1c2
+{
+display: inline-block;
+width: 30%;
+}
+.r2c1
+{
+display: inline-block;
+vertical-align: top;
+width: 43%;
+padding-right: 10%;
+}
+.r2c2
+{
+display: inline-block;
+width: 43%;
+}
+.BoldTitle
+{
+font-weight: bold;
+}
+.r3c1
+{
+display: inline-block;
+width: 25%;
+padding-right: 10%;
+}
+.r3c2
+{
+display: inline-block;
+width: 25%;
+padding-right: 10%;
+}
+.r3c3
+{
+display: inline-block;
+width: 25%;
+}
